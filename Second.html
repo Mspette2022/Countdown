@@ -1,0 +1,137 @@
+<!DOCTYPE j>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="Countdown Background.css" media="screen" />
+     <div style="text-align:center;"> 
+    <img src="UATspaceLogo-2.jpg" alt="">
+     </div>
+    <title>Mission Control</title>
+      <style>
+        h1 {text-align: center;}
+        h2 {text-align: center;}
+        p {text-align: center;}
+        div {text-align: center;}
+        button {object-position: center;}
+        img {object-position: center;}
+        </style>
+     
+     
+     <script src="half down alert.js"></script>
+     <script>
+// The script tags lets the browser know we are in JavaScript and not HTML
+    function StartTheCountdown()
+    {
+    var countdown = 10;
+    //used to keep track of actual time
+    // 1000 = 1 second because we are using milliseconds
+    var timeout = 10000;
+    //use the set time out function for countdown
+    setTimeout(() => {
+    document.getElementById("CountdownDisplay").innerHTML = "Blast Off!";
+    countdown = countdown - 1;
+}, timeout)
+    timeout = timeout - 1000;
+    //We need to do this 10 times *********************************
+setTimeout(() => {
+    document.getElementById("CountdownDisplay").innerHTML = countdown;
+    countdown = countdown - 1;
+}, timeout)
+    timeout = timeout - 1000;
+        //We need to do this 10 times *********************************
+setTimeout(() => {
+    document.getElementById("CountdownDisplay").innerHTML = countdown;
+    countdown = countdown - 1;
+}, timeout)
+    timeout = timeout - 1000;
+        //We need to do this 10 times *********************************
+setTimeout(() => {
+    document.getElementById("CountdownDisplay").innerHTML = countdown;
+    countdown = countdown - 1;
+}, timeout)
+    timeout = timeout - 1000;
+        //We need to do this 10 times *********************************
+setTimeout(() => {
+    document.getElementById("CountdownDisplay").innerHTML = countdown;
+    countdown = countdown - 1;
+}, timeout)
+    timeout = timeout - 1000;
+        //We need to do this 10 times *********************************
+
+setTimeout(() => {
+    document.getElementById("CountdownDisplay").innerHTML = countdown;
+    countdown = countdown - 1;
+}, timeout)
+    timeout = timeout - 1000;
+        //We need to do this 10 times *********************************
+setTimeout(() => {
+    document.getElementById("CountdownDisplay").innerHTML = countdown;
+    countdown = countdown - 1;
+}, timeout)
+    timeout = timeout - 1000;
+        //We need to do this 10 times *********************************
+setTimeout(() => {
+    document.getElementById("CountdownDisplay").innerHTML = countdown;
+    countdown = countdown - 1;
+}, timeout)
+    timeout = timeout - 1000;
+        //We need to do this 10 times *********************************
+setTimeout(() => {
+    document.getElementById("CountdownDisplay").innerHTML = countdown;
+    countdown = countdown - 1;
+}, timeout)
+    timeout = timeout - 1000;
+        //We need to do this 10 times *********************************
+        setTimeout(() => {
+    document.getElementById("CountdownDisplay").innerHTML = countdown;
+    countdown = countdown - 1;
+}, timeout)
+    timeout = timeout - 1000;
+        //We need to do this 10 times *********************************  
+
+        setTimeout(() => {
+    document.getElementById("CountdownDisplay").innerHTML = countdown;
+    countdown = countdown - 1;
+}, timeout)
+    timeout = timeout - 1000;
+        //We need to do this 10 times *********************************        
+    }
+   
+
+    
+
+      </script>
+</head>
+
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1> 
+    Rocket Blast Off! </h1>
+    <!--This is my colors and fonts for our h1 heading-->
+    <p>This application will start the countdown for Blast Off!</p>
+    <h2>
+        Countdown timer
+    </h2>
+    <!--This is a button to start the 
+    StartTheCountdown()countdown when the user clicks it-->
+    <div class="center">
+    <button type ="button" onclick="StartTheCountdown()">Start Countdown</button>
+<!--This is the key HTML element aka tag which we will be updating during the 
+    countdown-->
+    </div>
+    <P id="CountdownDisplay">10</P>
+
+
+</body>
+</html>
